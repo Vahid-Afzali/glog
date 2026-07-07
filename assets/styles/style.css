@@ -59,3 +59,19 @@ button {
     /* Transition */
     --transition: .35s ease;
 }
+
+/* Body */
+
+body {
+    font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text);
+    background:
+        radial-gradient(circle at top left, #4338ca 0%, transparent 35%),
+        radial-gradient(circle at bottom right, #0ea5e9 0%, transparent 30%),
+        linear-gradient(135deg, #020617, #0f172a, #111827);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
