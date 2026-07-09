@@ -38,7 +38,7 @@ button {
     --primary: #6366f1;
     --primary-dark: #4f46e5;
     --secondary: #0f172a;
-    --surface: rgba(255, 255, 255, .08);
+    --surface: rgba(255, 255, 255, .05);
     --surface-hover: rgba(255, 255, 255, .13);
     --border: rgba(255, 255, 255, .15);
     --white: #fff;
@@ -61,7 +61,6 @@ button {
 }
 
 /* Body */
-
 body {
     font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text);
@@ -74,4 +73,18 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px;
+}
+
+/* Wrapper */
+.wrapper {
+    width: min(1400px, 100%);
+    min-height: 780px;
+    display: grid;
+    grid-template-columns: 480px 1fr;
+    overflow: hidden;
+    border-radius: var(--radius-xl);
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(30px);
 }
