@@ -250,6 +250,44 @@ body {
     font-size: .9rem;
 }
 
+.socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.socials button {
+    height: 55px;
+    border-radius: var(--radius-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: var(--white);
+    font-weight: 600;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.socials button:hover {
+    transform: translateY(-4px);
+    background: var(--surface-hover);
+    border-color: rgba(255, 255, 255, .2);
+}
+
+.socials button i {
+    font-size: 1.15rem;
+}
+
+.socials button:first-child:hover {
+    color: #fb3325;
+}
+
+.socials button:last-child:hover {
+    color: #52dbbd;
+}
+
 .gallery {
     /* Temporary */
     display: none;
