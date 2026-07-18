@@ -234,6 +234,11 @@ body {
 .register-btn:hover {
     transform: translateY(-4px);
     box-shadow: 0 15px 25px var(--shadow-primary-lg);
+     background:
+        radial-gradient(circle at top left, #4338ca 0%, transparent 45%),
+        radial-gradient(circle at bottom right, #0ea5e9 0%, transparent 45%),
+        linear-gradient(135deg, #1a1f36, #0f172a, #111827);
+        
 }
 
 .register-btn:active {
