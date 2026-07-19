@@ -1,6 +1,6 @@
 ### 1.0.1
-Added dashboard
+- Added dashboard
 
 ### 1.0.0
-Initial release
-Added login page
+- Initial release
+- Added login page
